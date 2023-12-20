@@ -39,7 +39,7 @@
 </svelte:head>
 
 <div class="main" in:fade|global>
-	<a class="back baseButton" href="/">
+	<a class="back baseButton" href="/" aria-label="{$dictionary.goBack}">
 		<ion-icon name="caret-back"></ion-icon>
 		<span>{$dictionary.goBack}</span>
 	</a>
@@ -235,9 +235,6 @@
 		width: 100%;
 	}
 
-	@media(max-height: 800px){
-		.main{padding-top: 20px;}
-	}
 	@media(orientation: portrait){
 		.main{padding-top: 0px;}
 		.imageContainer{min-height: 530px;}
@@ -249,9 +246,15 @@
 		}
 
 		.back {
-			top: 5rem;
 			left: .5rem;
 			font-size: 1.05rem;
+		}
+	}
+
+	@media screen and (max-width: 76.125rem) {
+		.back {
+			position: absolute;
+			top: .5rem;
 		}
 	}
 
