@@ -15,7 +15,7 @@
 <svelte:head>
     <title>{$dictionary.contactanos}</title>
     <noscript>
-        <title>CCS - Contáctanos</title>
+        <title>Contáctanos</title>
     </noscript>
     
     <meta name="description" content={$dictionary.connectWithUs}>

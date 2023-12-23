@@ -32,7 +32,7 @@
 <svelte:head>
     <title>{chosenGuitar?.name[$language] || guitarSpanishName}</title>
     <noscript>
-        <title>CCS Guitarras</title>
+        <title>CCS Guitars</title>
     </noscript>
     
     <meta name="description" content={chosenGuitar?.paragraph[$language]}>

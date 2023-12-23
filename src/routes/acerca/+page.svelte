@@ -9,12 +9,7 @@
 		'carousel06.webp',
 		'carousel07.webp',
 		'carousel09.webp',
-		'carousel03.webp',
-		'carousel04.webp',
 		'carousel01.webp',
-		'carousel08.webp',
-		'carousel10.webp',
-		'carousel05.webp',
 	]
 
 </script>
@@ -22,7 +17,7 @@
 <svelte:head>
     <title>{$dictionary.acercaDeNosotros}</title>
     <noscript>
-        <title>CCS - Acerca De Nosotros</title>
+        <title>Acerca De Nosotros</title>
     </noscript>
     
     <meta name="description" content={$dictionary.resumenCCS}>
@@ -51,11 +46,6 @@
 				$dictionary.guitarAsioClamatorBeforeColor,
 				$dictionary.designingHeadsAsioClamatorBoaConstrictor,
 				$dictionary.guitarBoaConstrictorBeforeColor,
-				$dictionary.guitarNoctiliaColorProcess,
-				$dictionary.guitarNoctiliaBeforeAssembly,
-				$dictionary.guitarNoctiliaAndArgia,
-				$dictionary.guitarAsioClamatorColorProcess,
-				$dictionary.guitarBoaConstrictorColorProcess,
 				$dictionary.guitarNoctiliaAndArgia,
 			]}
 		/>
